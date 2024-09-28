@@ -11,6 +11,15 @@ let isAngry: boolean = false;
 
 //always defining a type is not a good practice, do it for extra safety otherwise ts can determine it
 
+//any
+let hero;
+
+function getHero(){
+    // return true;
+    return "thor";
+}
+
+hero = getHero();
 
 
 
